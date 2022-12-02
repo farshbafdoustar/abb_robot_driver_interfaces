@@ -50,3 +50,7 @@ uint8 rapid_execution_state
 # An utilization rate > 100 mean that EGM motion references are
 # too aggressive and should be reduced.
 float64 utilization_rate
+
+time time
+abb_rapid_msgs/Pose cartesian_pose
+float64[] joints_state

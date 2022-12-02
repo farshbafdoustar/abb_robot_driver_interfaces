@@ -35,6 +35,7 @@ find_package(catkin
   REQUIRED COMPONENTS
     message_generation
     std_msgs
+    abb_rapid_msgs
 )
 
 #===========================================================
@@ -49,6 +50,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
     std_msgs
+    abb_rapid_msgs
 )
 
 #===========================================================
