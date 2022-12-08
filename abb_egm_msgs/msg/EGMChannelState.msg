@@ -54,3 +54,6 @@ float64 utilization_rate
 time time
 abb_rapid_msgs/Pose cartesian_pose
 float64[] joints_state
+uint32 time_stamp_ms
+uint32 sequence_number
+
